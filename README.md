@@ -16,6 +16,7 @@ You can download ffmpeg from [here](https://ffmpeg.org/download.html) and [here]
 
 # Installation
 - Download the .whl file from the release folder and install it using pip:
+
         python -m pip install 
     
 
