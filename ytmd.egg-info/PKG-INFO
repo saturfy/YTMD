@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ytmd
+Version: 1.0.0
+Summary: youtube music downloader CLI tool
+Home-page: https://github.com/Vibhu-Agarwal/vibhu4gfg
+Author: Peter Posfay
+Author-email: posfay.peter@wigner.hu
+License: MIT
+Keywords: youtube music downloader ffmpeg mp3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Command line tool for downloading music from youtube videos       and converting them to mp3 format using ffmpeg.
+
