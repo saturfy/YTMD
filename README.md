@@ -31,5 +31,26 @@ A test.txt file is provided in the repository to test the installation. Download
 The text file containts 5 URLs. The command will try to download these from youtube but the last two are bad URLs which are skipped. At the end you will have 3 mp3 files. 
     
 # Usage
-The program can be run from console using the _ytmd_ command.
+The program can be run from console using the __ytmd__ command. You must provide a youtube URL to download music. There are two ways to do it:
+- ___Direct___:
+        
+        ytmd -u <youtube-url-of-a video>
+ 
+You can download one url this way. For multiple urls at once use the file method below.
+        
+- ___FILE___: in this case you can list the urls in a txt file. The program will go through them one by one and downloads the music from each. The txt file should contian only one url per line. An example is given in the repo files: _test.txt_. To download urls from a file use the following command: 
+
+        ytmd -f <path-to-the-txt-file>
+        
+The default behaviour is that ytmd downloads files into the folder it was called from. However You can specify a dwonload folder if you want using -d 
+
+        ytdm -d <path-to-download-directory> -u <youtube-url>
+        
+## Example
+Download youtube videos from the urls in the test.txt file into a download folder: Call the command from the folder where the file is located
+
+        ytmd -d download -f test.txt
+        
+# Notes
+- The program always downloads the best available audio stream using the mp4 files from the video.
 
