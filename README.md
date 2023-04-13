@@ -15,9 +15,11 @@ You need to have ffmpeg and python installed. The software was tested with ffmpe
 You can download ffmpeg from [here](https://ffmpeg.org/download.html) and [here](https://phoenixnap.com/kb/ffmpeg-windows) you can find an installation guide for windows where it is explained how to set the PATH environmental variables to make ffmpeg commands avalilable in command line. 
 
 # Installation
-- Download the .whl file from the release folder and install it using pip:
+1. ___OFFLINE___: Download the dist/ytmd-1.0.0-py3-none-any.whl file from the release folder and install it using pip:
 
-        python -m pip install 
+        python -m pip install ytmd-1.0.0-py3-none-any.whl
+        
+ 2. ___ONLINE___
     
 
 # Usage
