@@ -22,7 +22,14 @@ You can download ffmpeg from [here](https://ffmpeg.org/download.html) and [here]
 2. ___ONLINE___
         
         python -m pip install git+https://github.com/saturfy/YTMD
-    
 
+## Test the installation
+A test.txt file is provided in the repository to test the installation. Download this file into an empty folder and run:
+        
+        ytmd -f test.txt
+
+The text file containts 5 URLs. The command will try to download these from youtube but the last two are bad URLs which are skipped. At the end you will have 3 mp3 files. 
+    
 # Usage
+The program can be run from console using the _ytmd_ command.
 
