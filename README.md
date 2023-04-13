@@ -19,7 +19,9 @@ You can download ffmpeg from [here](https://ffmpeg.org/download.html) and [here]
 
         python -m pip install ytmd-1.0.0-py3-none-any.whl
         
- 2. ___ONLINE___
+2. ___ONLINE___
+        
+        python -m pip install git+https://github.com/saturfy/YTMD
     
 
 # Usage
