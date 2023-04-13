@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/ffmpeg-version:%202023--03--27--git--f7abe92bd7-brightgreen)
 
 # Description
-YouTube Music Downloader (YTMD) is a python and ffmpeg baed console application for downloading audiostreams from youtube URLs to your computer and converting them to mp3 format for offline use. 
+YouTube Music Downloader (YTMD) is a python and ffmpeg based console application for downloading audiostreams from youtube URLs to your computer and converting them to mp3 format for offline use. 
 
 ----
 
