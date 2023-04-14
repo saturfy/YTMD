@@ -11,7 +11,7 @@ setup(
         version ='1.0.0',
         author ='Peter Posfay',
         author_email ='posfay.peter@wigner.hu',
-        url ='https://github.com/Vibhu-Agarwal/vibhu4gfg',
+        url ='https://github.com/saturfy/YTMD',
         description ='youtube music downloader CLI tool',
         long_description = long_description,
         long_description_content_type ="text/markdown",
